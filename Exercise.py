@@ -1,4 +1,5 @@
 from tkinter import *
+
 root = Tk()
 root.title("First App")
 root.geometry("400x200")

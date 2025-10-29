@@ -1,4 +1,5 @@
 from tkinter import *
+
 root=Tk()
 # Set window size
 root.geometry("400x200")

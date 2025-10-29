@@ -1,6 +1,8 @@
 from tkinter import *
+
 top = Tk()
 top.title('Find & Replace')
+
 Label (top, text = "Find:").grid(row = 0, column = 0, sticky = 'e')
 Entry (top).grid(row = 0, column = 1, padx = 2, pady = 2, sticky = 'we', columnspan = 9)
 Label (top, text = "Replace:").grid(row = 1, column = 0, sticky = 'e')
